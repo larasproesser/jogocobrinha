@@ -1,0 +1,23 @@
+html,
+body,
+input,
+textarea,
+select,
+button{
+    background-color: transparent;
+}
+html{
+    background-image: url(https://media.giphy.com/media/3ov9jEnypymbFQJ9CM/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+body{
+    height: 95vh;
+    width: 5;
+    display: -moz-deck;
+    justify-content: right;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(250, 221, 58);
+}
