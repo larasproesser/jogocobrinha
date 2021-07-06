@@ -2,6 +2,12 @@ let canvas = document.getElementById("snake");
 let context = canvas.getContext("2d");
 let box = 32;
 let snake = [];
+var img=new Image();
+img.onload = function(){
+    
+    console.log("Desenhado!!")
+    };
+img.src="maca.png";
 
 snake[0] = {
     x: 8 * box,
@@ -15,6 +21,7 @@ let food = {
 function criarBG() {
     context.fillStyle = "lightblue";
     context.fillRect(0, 0, 16 * box, 16 * box);
+    
 }
 function criarCobrinha() {
     for (i = 0; i < snake.length; i++) {
@@ -29,7 +36,8 @@ function criarCobrinha() {
 }
 function drawFood() {
     context.fillStyle = "red";
-    context.fillRect(food.x, food.y, box, box);
+    //context.fillRect(food.x, food.y, box, box);
+    context.drawImage(img,food.x,food.y,box,box);
 }
 document.addEventListener("keydown", update);
 
