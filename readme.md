@@ -2,7 +2,5 @@
 
 *Jogo da cobrinha desenvolvido utilizando HTML, CSS e JavaScript*
 
-Você consegue acessar o jogo 
-
-[https://jogodacobrinha.vercel.app/clicando]: 
+:snake:  **Você consegue acessar o jogo [clicando aqui!](https://jogodacobrinha.vercel.app/)** :snake:
 
