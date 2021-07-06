@@ -5,6 +5,7 @@ textarea,
 select,
 button{
     background-color: transparent;
+    justify-content: center;
 }
 html{
     background-image: url(https://media.giphy.com/media/3ov9jEnypymbFQJ9CM/giphy.gif);
@@ -16,8 +17,11 @@ body{
     height: 95vh;
     width: 5;
     display: -moz-deck;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     color: rgb(250, 221, 58);
+}
+canvas{
+    padding: 160px 0px 0px 700px;
 }
