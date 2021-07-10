@@ -23,5 +23,11 @@ body{
     color: rgb(250, 221, 58);
 }
 canvas{
-    padding: 160px 0px 0px 700px;
+    padding: 100px 0px 0px 600px;
+}
+
+@media (max-width: 700px) {
+    button{
+        flex-basis: 100%;
+    }
 }

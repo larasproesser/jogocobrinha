@@ -19,16 +19,16 @@ function criarBG() {
 function criarCobrinha() {
     for (i = 0; i < snake.length; i++) {
         if(i == 0) {
-            context.fillStyle = "rgb(171, 104, 21)";
+            context.fillStyle = "purple";
             context.fillRect(snake[i].x, snake[i].y, box, box);
         } else {
-            context.fillStyle = "green";
+            context.fillStyle = "purple";
             context.fillRect(snake[i].x, snake[i].y, box, box);
         }
     }
 }
 function drawFood() {
-    context.fillStyle = "red";
+    context.fillStyle = "yellow";
     context.fillRect(food.x, food.y, box, box);
 }
 document.addEventListener("keydown", update);
